@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Image</title>
+    <style>
+        ul{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <ul>
+                <li><!--created empty list to put the google search and sign in button on the right side of the page--></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Google search</a></li>
+                <li><a href=""><button>Sign In</button></a></li>
+            </ul>
+        </header>
+        <div class="main">
+            <img src="google.png">
+            <div class="searchBox">
+                <form action="https://google.com/search" method="GET">
+                    <input type="text" class="search" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                        <div class="icons">
+                            <div><img src="search.png"></div>
+                            <div><img src="mic.png"></div>
+                        </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
